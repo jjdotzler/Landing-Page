@@ -3,11 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>Jack Dotzler — Medical Device Sales Candidate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-  
-    
+
+    <header>
+        <nav class="navbar navbar-expand-md sticky-top" aria-label="Main navigation">
+            <div class="container nav-container">
+                <a class="navbar-brand" href="#hero">Jack Dotzler</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navMenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <img
+                    src="images/Jack_Dotzler.jpeg"
+                    alt="Jack Dotzler, University of Iowa offensive lineman and medical device sales candidate"
+                    class="hero-photo"
+                >
+                <h1 class="hero-name">Jack Dotzler</h1>
+                <p class="hero-tagline">Competitive Leader Pursuing Medical Device Sales</p>
+                <a href="#contact" class="hero-cta">Get in Touch</a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container content-container">
+                <h2>About Me</h2>
+                <p>I'm a Finance and Accounting student at the University of Iowa, graduating in May 2026. I'm targeting entry-level medical device sales roles at companies like Stryker, Medtronic, and Cardinal Health — with a focus on the Midwest, Denver, and the Pacific Northwest.</p>
+                <p>I played offensive line for the Iowa Hawkeyes and was a three-time team captain in high school basketball. Those experiences taught me how to compete at a high level, lead under pressure, and perform when the stakes are real. I bring that same discipline and coachability into every professional environment I enter.</p>
+                <p>I understand that medical device sales requires more than a polished resume — it takes relationship-building, resilience, and the drive to keep going after a hard day. That's who I am.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <div class="container content-container">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <span class="skill-badge skill-primary">Communication</span>
+                    <span class="skill-badge skill-primary">Leadership</span>
+                    <span class="skill-badge skill-primary">Work Ethic</span>
+                    <span class="skill-badge skill-primary">Resilience</span>
+                    <span class="skill-badge skill-primary">Relationship Building</span>
+                    <span class="skill-badge skill-secondary">Teamwork</span>
+                    <span class="skill-badge skill-secondary">Sales / Cold Calling</span>
+                    <span class="skill-badge skill-secondary">Public Speaking</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="experience-section">
+            <div class="container content-container">
+                <h2>Experience</h2>
+                <div class="row g-4">
+
+                    <div class="col-md-6">
+                        <article class="experience-card">
+                            <h3>Iowa Football Leadership Council</h3>
+                            <p class="experience-org">University of Iowa &middot; Iowa City, IA</p>
+                            <p>Served on the Iowa Football Leadership Council, representing teammates in dialogue with coaching staff and program leadership. Contributed to team culture decisions, held peers accountable, and helped set standards for the program on and off the field.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="experience-card">
+                            <h3>Offensive Lineman, Iowa Hawkeyes Football</h3>
+                            <p class="experience-org">University of Iowa &middot; Iowa City, IA</p>
+                            <p>Competed as an offensive lineman in a Division I program that demands consistent performance and mental toughness. Previously named Wisconsin Offensive Lineman of the Year and a team captain — recognition built through daily discipline, coachability, and leading by example.</p>
+                        </article>
+                    </div>
+
+                    <div class="col-md-6">
+                        <article class="experience-card">
+                            <h3>Sales Intern, Elevity</h3>
+                            <p class="experience-org">Cold Calling &amp; Business Development</p>
+                            <p>Conducted outbound cold calls to prospective business clients, developing consultative sales skills and building resilience through high-volume prospecting. Prioritized relationship-first communication and consistent follow-up to move conversations forward.</p>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container content-container">
+                <h2>Contact</h2>
+                <p>I'm actively looking for entry-level medical device sales opportunities. If you'd like to connect, reach out through any of the channels below.</p>
+                <div class="contact-links">
+                    <a
+                        href="https://www.linkedin.com/in/jack-dotzler-aa5783245"
+                        class="contact-badge"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Connect with Jack Dotzler on LinkedIn"
+                    >
+                        <i class="bi bi-linkedin" aria-hidden="true"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a
+                        href="https://github.com/jjdotzler"
+                        class="contact-badge"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="View Jack Dotzler's GitHub profile"
+                    >
+                        <i class="bi bi-github" aria-hidden="true"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a
+                        href="mailto:john-dotzler@uiowa.edu"
+                        class="contact-badge"
+                        aria-label="Send an email to Jack Dotzler at john-dotzler@uiowa.edu"
+                    >
+                        <i class="bi bi-envelope-fill" aria-hidden="true"></i>
+                        <span>john-dotzler@uiowa.edu</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Jack Dotzler. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
